@@ -6,6 +6,8 @@
  * @license     {@link }
  */
 var mainPropertiesClass = require('./MainPropertiesClass');
+var gsap = require('gsap');
+console.log(gsap);
 global.MainPropertiesClass = mainPropertiesClass;
 
 module.exports = mainPropertiesClass;
